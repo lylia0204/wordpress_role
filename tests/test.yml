@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+     - lylia0204.docker_role
+     - wordpress_role
